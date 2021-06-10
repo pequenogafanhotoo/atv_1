@@ -1,0 +1,40 @@
+/******************************************************************************
+
+Faça um programa que leia dez números e obtenha:
+
+
+	
+A soma dos números;
+	O menor número;
+	O maior número;
+
+*******************************************************************************/
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+     int i=1,n,som=0,min,max;
+     
+    do{
+        
+        i++;
+        
+        cout << "digite um numero: " ; 
+        cin >> n;
+        
+        som = som + n;    
+        
+        if(min<n){
+        min=n;}
+        
+        if(max>n){
+        max=n;}
+    }
+    
+    while(i <= 10);
+        
+        cout << "a soma é: " << som << endl;
+        cout << "o maior numero é: " << min << endl;
+        cout << "o menor numero é: " << max << endl;
+}
