@@ -8,6 +8,11 @@ A soma dos números;
 	O menor número;
 	O maior número;
 
+
+
+
+	Eai kkkkk
+
 *******************************************************************************/
 #include <iostream>
 using namespace std;
